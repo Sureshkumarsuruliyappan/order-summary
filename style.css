@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img {
+    max-width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+
+}
+.container{
+    max-width: 380px;
+    margin: auto;
+   background-color: #ffff;
+   text-align: center;
+   border-radius: 16px;
+}
+.order-summary{
+    background-color: hsl(225, 100%, 94%);
+    /* height: 100vh; */
+      padding: 123px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.songs {
+    max-width: 317px;
+    margin: auto;
+    color: #939aac;
+    padding: 6px 0 0px;
+    line-height: 1.5;
+}
+.order {
+    color: hsl(223, 47%, 23%);
+    padding: 54px 0 15px;
+}
+.image svg::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.image-svg{
+    padding: 37px;
+}
+.color{
+    background-color: #f8f9fe;
+    overflow: hidden;
+    padding: 12px;
+    border-radius: 10px;
+}
+.image svg::before{
+    content: "";
+    clear: both;
+    display: table;
+}
+.change{
+    float: right;
+}
+.music {
+    float: left;
+}
+.plan {
+    float: left;
+    padding: 0px 25px;
+}
+.btn{
+    padding: 14px 91px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: #ffff;
+    box-shadow: 0px 10px aliceblue;
+}
+.link {
+    display: block;
+    padding: 13px 0;
+}
+link-btn {
+    text-decoration: none;
+    color: #ffff;
+}
+.link-cancel{
+    padding: 27px;
+    color: #939aac;
+    display: block;
+    text-decoration: none;
+}
+.annual {
+    padding: 6px 0;
+}
+.num{
+    color:#939aac;
+} 
+@media all and (max-width: 375px) {
+    .order-summary {
+        background-color: hsl(225, 100%, 94%);
+        /* max-height: 100vh; */
+        padding: 18px;
+        background-image: url(images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        font-family: 'Red Hat Display', sans-serif;
+        max-width: 400px;
+        margin: auto;
+    }
+}
+@media all and (max-width: 550px) {
+.order-summary {
+    background-color: hsl(225, 100%, 94%);
+    /* max-height: 100vh; */
+    padding: 127px 0px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.order{
+    padding: 8px;
+}
+}
